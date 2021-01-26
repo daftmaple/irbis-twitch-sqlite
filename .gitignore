@@ -1,0 +1,19 @@
+# node modules
+node_modules/
+yarn.lock
+package-lock.json
+
+# Compiled file
+build/
+
+# Configuration
+config.json
+
+# Data storage
+.data/
+
+# IntelliJ
+.idea/
+
+# Shell script
+*.sh

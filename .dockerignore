@@ -1,0 +1,12 @@
+build/
+.data/
+.vscode/
+
+.eslint*
+.prettierrc
+
+config.example.json
+
+LICENSE
+NOTICE
+README.md

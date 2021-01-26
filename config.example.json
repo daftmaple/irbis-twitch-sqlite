@@ -1,0 +1,18 @@
+{
+  "botName": "",
+  "botRefreshToken": "",
+  "botChannel": "",
+  "twitchApplication": {
+    "clientId": "",
+    "clientSecret": ""
+  },
+  "lastfm": {
+    "username": "",
+    "apiKey": ""
+  },
+  "timezone": "UTC",
+  "database": {
+    "driver": "sqlite3",
+    "path": "./.data/bot.db"
+  }
+}

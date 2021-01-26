@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  irbis-twitch:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: irbis-twitch
+    container_name: irbis-t-container
+    volumes:
+      - ./.data/:/usr/src/.data/

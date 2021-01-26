@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  db:
+    container_name: irbis_db
+    image: postgres:13.1
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=<INSERT_PASSWORD_HERE>
+      # - POSTGRES_USER=<INSERT_USER_HERE>  # optional, defaults to "postgres"
+      # - POSTGRES_DB=<INSERT_DB_HERE>      # optional, defaults to "postgres"
+    ports:
+      - '127.0.0.1:5432:5432' # HOST:CONTAINER
+    volumes:
+      - <INSERT_VOLUME_HERE>:/var/lib/postgresql/data
